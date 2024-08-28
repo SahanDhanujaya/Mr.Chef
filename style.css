@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+}
+.container{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    opacity: 0.4;
+}
+header{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background-image: url(/assets/images/pexels-xmtnguyen-1001773.jpg);
+    background-size: cover;
+}
+header img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+body>hero>div{
+    width: 35vw;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+}
+header nav{
+    position: absolute;
+    right: 0;
+}
+header>nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
