@@ -10,35 +10,38 @@ body{
     opacity: 0.7;
 }
 header{
+    height: 100vh;
+}
+header>section{
     position: relative;
     height: 90vh;
     display: flex;
     background-image: url(/assets/images/pexels-xmtnguyen-1001773.jpg);
     background-size: cover;
 }
-header img{
+header>section img{
     width: 70px;
     position: absolute;
     top: 0;
     z-index: 1;
 }
-header nav{
+header>section nav{
     position: absolute;
     right: 0;
     height: 70px;
     align-content: center;
 }
-header>nav>ul>li{
+header>section>nav>ul>li{
     list-style: none;
     display: inline-block;
     margin-right: 15px;
 }
-header>nav>ul>li>a{
+header>section>nav>ul>li>a{
     text-decoration: none;
     color: white;
     font-size: 17px;
 }
-header>nav>ul>li>a:hover{
+header>section>nav>ul>li>a:hover{
     border-bottom: 3px solid red;
 }
 hero>div{
@@ -65,5 +68,40 @@ hero>p{
     width: 25vw;
     font-size: 17px;
 }
-
-
+.about{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    align-content: center;
+}
+.about>h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.about>div{
+    display: flex;
+    justify-content: center;
+    
+}
+.about>div>div:nth-child(1)>img{
+    width: 500px;
+    height: 300px;
+   
+}
+.about>div>div>p{
+    width: 300px;
+    height: 200px;
+}
+.about>div>div:nth-child(2){
+    position: relative;
+    left: 10px;
+}
+.about>div>div>h1{
+    margin: 0;
+    font-size: 50px;
+}
+.about>div>div>h3{
+    margin: 0;
+    color: red;
+    font-size: 20px;
+}
